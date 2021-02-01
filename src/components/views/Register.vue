@@ -1,5 +1,5 @@
 <template>
-  <div class="register">
+  <div class="register pt-5 mt-2">
       <div>
           <form @submit.prevent="submit">
             <div>

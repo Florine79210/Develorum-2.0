@@ -1,5 +1,5 @@
 <template>
-  <div class="login">
+  <div class="login pt-5 mt-2">
     <div>
       <form @submit.prevent="submit">
         <div>

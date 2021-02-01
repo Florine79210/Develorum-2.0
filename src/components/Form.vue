@@ -203,7 +203,7 @@ export default {
       };
       axios
         .post(
-          "https://cors-anywhere.herokuapp.com/https://crudcrud.com/api/f725367c785a421bb14e38e90ec6037c/message",
+          "https://cors-anywhere.herokuapp.com/https://crudcrud.com/api/c2659c124102448995b5072baf0c6409/message",
           newMessage
         )
 

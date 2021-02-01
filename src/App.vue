@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center justify-content-center">
+  <div class="text-center justify-content-center pt-5 mt-2">
     <Header />
     <div class="container-fluid mt-5 m-auto">
       <div class="row d-flex justify-content-center">
@@ -41,7 +41,7 @@ export default {
 
   created: function () {
     axios
-      .get("https://cors-anywhere.herokuapp.com/https://crudcrud.com/api/f725367c785a421bb14e38e90ec6037c/message")
+      .get("https://cors-anywhere.herokuapp.com/https://crudcrud.com/api/c2659c124102448995b5072baf0c6409/message")
 
       .then((res) => {
         this.messages = res.data;
@@ -62,6 +62,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #000000;
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 </style>

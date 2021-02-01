@@ -1,5 +1,5 @@
 <template>
-  <div id="message" class="container mt-4">
+  <div id="message" class="container mt-5">
     <div class="row justify-content-center">
       <div class="card ps-0 pe-0">
         <div class="card-header">
@@ -66,7 +66,7 @@ export default {
       console.log("id" + messageId);
       axios
         .delete(
-          "https://cors-anywhere.herokuapp.com/https://crudcrud.com/api/f725367c785a421bb14e38e90ec6037c/message/" +
+          "https://cors-anywhere.herokuapp.com/https://crudcrud.com/api/c2659c124102448995b5072baf0c6409/message/" +
             messageId
         )
 
