@@ -4,19 +4,20 @@
       <h2 class="navbar-brand me-auto ms-5 text-info siteName">Develorum</h2>
     </router-link>
     <button
-      class="navbar-toggler"
+      class="navbar-toggler me-5 ms-auto text-white"
       type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
       aria-controls="navbarNav"
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon text-white"></span>
     </button>
-    
+
+    <div class="collapse navbar-collapse" id="navbarNav">
       <NavBar />
-  
+    </div>
   </nav>
 </template>
 
@@ -35,15 +36,10 @@ export default {
 nav {
   background-color: #08065f;
   color: white;
- 
 }
 .siteName {
   font-family: "Press Start 2P", cursive;
   font-size: 40px;
   /* text-decoration: none; */
-}
-.navbar ul li p {
-  font-size: 20px;
-  text-decoration: none;
 }
 </style>

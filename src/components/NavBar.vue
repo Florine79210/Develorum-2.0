@@ -1,6 +1,6 @@
 <template>
-  <div id="nav">
-    <div class="collapse navbar-collapse" id="navbarNav">
+
+    <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
       <ul class="navbar-nav me-5 ms-auto">
         <router-link to="/posts">
           <li class="nav-item">
@@ -28,7 +28,7 @@
           </router-link>
         </span>
       </ul>
-    </div>
+    
 
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/posts">Posts</router-link> |
@@ -39,7 +39,7 @@
       <router-link to="/register">Register</router-link> |
       <router-link to="/login">Login</router-link>
     </span> -->
-  </div>
+  <!-- </div> -->
 </template>
 <script>
 import { mapGetters } from "vuex";
@@ -75,7 +75,7 @@ a:hover {
   color: #42b983;
 } */
 
-#nav ul li a {
+#navbarNav ul li a {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
